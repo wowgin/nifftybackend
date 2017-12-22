@@ -1,7 +1,7 @@
 //APIキーの設定とSDKの初期化
-var appKey    = "アプリケーションキー";
-var clientKey = "クライアントキー";
-var ncmb    　= new NCMB('ad2f6dc19eb42db960cb04554a85212418718a589020d25092db3755a47e963b','5edfbb50e105d70ce2d2f03b7a2c4348011127c394c31251462db0cf78f9a850');
+var appKey    = "ad2f6dc19eb42db960cb04554a85212418718a589020d25092db3755a47e963b";
+var clientKey = "5edfbb50e105d70ce2d2f03b7a2c4348011127c394c31251462db0cf78f9a850";
+var ncmb    　= new NCMB(app,clientKey);
 
 // -------[Demo1]データをmBaaSに保存する -------//
 function sendForm() {
